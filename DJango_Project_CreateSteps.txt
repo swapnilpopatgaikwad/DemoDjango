@@ -1,0 +1,15 @@
+ => pip install django
+  => (django-admin startproject DemoDJango)    OR  => python -m django startproject DemoDjango
+  => python manage.py migrate
+  => python manage.py runserver
+  1) Run Django Development Server
+	Once your virtual environment is activated, run the Django development server using the manage.py script:
+	This command starts the Django development server locally. By default, it runs on http://127.0.0.1:8000/.
+	=> python manage.py createsuperuser
+	Create Superuser: If you need to access the Django admin interface during development, create a superuser with the following command (run it in the same directory as manage.py):
+	
+	*****Above part is admin part before project create we need to create admin site
+	
+	=> Create App actual project
+	 => python manage.py startapp myfirstapp
+	
